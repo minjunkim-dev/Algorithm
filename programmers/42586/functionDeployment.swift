@@ -88,3 +88,5 @@ func makeCompletes(_ progresses:[Int], _ speeds:[Int]) -> [Int] {
 }
 
 solution(progresses, speeds)
+
+
