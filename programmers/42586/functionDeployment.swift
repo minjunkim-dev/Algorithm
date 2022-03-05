@@ -1,4 +1,4 @@
-//functionDeployment: https://programmers.co.kr/learn/courses/30/lessons/42586/ 큐를 활용한 풀이(근데 큐가 굳이 필요한가..?)
+//기능구현: https://programmers.co.kr/learn/courses/30/lessons/42586/ 큐를 활용한 나의 첫번째 풀이(굳이 큐의 필요성을 잘 모르겠음..)
 
 import Foundation
 
