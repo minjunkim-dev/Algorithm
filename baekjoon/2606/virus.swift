@@ -44,7 +44,10 @@ for _ in 0..<N {
         .split(separator: " ")
         .map { Int($0)! }
     let (node1, node2) = (input[0], input[1])
-    /* 무방향 그래프 */
+    /*
+    무방향 그래프이므로
+    양쪽으로 추가함 
+    */
     graph[node1].append(node2)
     graph[node2].append(node1)
 }
@@ -71,5 +74,4 @@ func bfs(graph: [[Int]], start: Int) -> Queue<Int> {
 
 let result = bfs(graph: graph, start: 1)
 print(result.size - 1)
-
 
